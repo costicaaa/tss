@@ -10,9 +10,9 @@ public class MyClass {
             if (start != 0 ) {
                 throw new Error("invalid start");
             }
-            if(end != array.length - 1){
+//            if(end != array.length - 1){
                 throw new Error("invalid end");
-            }
+//            }
         }
 
         for (int i = 0; i < array.length; i++) {
