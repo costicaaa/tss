@@ -1,15 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mutations>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>18</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator</mutator><index>59</index><block>12</block><killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest><description>changed conditional boundary</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>6</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.MathMutator</mutator><index>9</index><block>1</block><killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest><description>Replaced integer subtraction with addition</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>7</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.MathMutator</mutator><index>20</index><block>3</block><killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest><description>Replaced integer subtraction with addition</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>6</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator><index>4</index><block>0</block><killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest><description>negated conditional</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>6</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator><index>10</index><block>1</block><killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest><description>negated conditional</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>7</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator><index>15</index><block>2</block><killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest><description>negated conditional</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>7</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator><index>21</index><block>3</block><killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest><description>negated conditional</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>10</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator><index>33</index><block>6</block><killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest><description>negated conditional</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>18</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator><index>59</index><block>12</block><killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest><description>negated conditional</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>19</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator><index>66</index><block>13</block><killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest><description>negated conditional</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>20</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator</mutator><index>70</index><block>14</block><killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest><description>replaced int return with 0 for com/company/MyClass::method</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>MyClass.java</sourceFile><mutatedClass>com.company.MyClass</mutatedClass><mutatedMethod>method</mutatedMethod><methodDescription>([IIII)I</methodDescription><lineNumber>23</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator</mutator><index>80</index><block>16</block><killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest><description>replaced int return with 0 for com/company/MyClass::method</description></mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>18</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator</mutator>
+        <index>59</index>
+        <block>12</block>
+        <killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest>
+        <description>changed conditional boundary</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>6</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.MathMutator</mutator>
+        <index>9</index>
+        <block>1</block>
+        <killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest>
+        <description>Replaced integer subtraction with addition</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>7</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.MathMutator</mutator>
+        <index>20</index>
+        <block>3</block>
+        <killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest>
+        <description>Replaced integer subtraction with addition</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>6</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator>
+        <index>4</index>
+        <block>0</block>
+        <killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest>
+        <description>negated conditional</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>6</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator>
+        <index>10</index>
+        <block>1</block>
+        <killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest>
+        <description>negated conditional</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>7</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator>
+        <index>15</index>
+        <block>2</block>
+        <killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest>
+        <description>negated conditional</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>7</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator>
+        <index>21</index>
+        <block>3</block>
+        <killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest>
+        <description>negated conditional</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>10</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator>
+        <index>33</index>
+        <block>6</block>
+        <killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest>
+        <description>negated conditional</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>18</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator>
+        <index>59</index>
+        <block>12</block>
+        <killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest>
+        <description>negated conditional</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>19</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator</mutator>
+        <index>66</index>
+        <block>13</block>
+        <killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest>
+        <description>negated conditional</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>20</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator</mutator>
+        <index>70</index>
+        <block>14</block>
+        <killingTest>com.company.MyClassTest.categoryTests(com.company.MyClassTest)</killingTest>
+        <description>replaced int return with 0 for com/company/MyClass::method</description>
+    </mutation>
+    <mutation detected='true' status='KILLED' numberOfTestsRun='1'>
+        <sourceFile>MyClass.java</sourceFile>
+        <mutatedClass>com.company.MyClass</mutatedClass>
+        <mutatedMethod>method</mutatedMethod>
+        <methodDescription>([IIII)I</methodDescription>
+        <lineNumber>23</lineNumber>
+        <mutator>org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator</mutator>
+        <index>80</index>
+        <block>16</block>
+        <killingTest>com.company.MyClassTest.branchTests(com.company.MyClassTest)</killingTest>
+        <description>replaced int return with 0 for com/company/MyClass::method</description>
+    </mutation>
 </mutations>
